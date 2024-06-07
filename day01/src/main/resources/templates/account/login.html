@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header th:replace="/template :: header"></header>
+
+  <h4>로그인</h4>
+
+  <form method="POST">
+    <p><input name="userid" placeholder="ID" required></p>
+    <p><input name="userpw" type="password" placeholder="PW" required></p>
+
+    <button>login</button>
+  </form>
+</body>
+</html>
