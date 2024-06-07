@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: test
+  
+  mvc:
+    view:
+      suffix: .html
+
+server:
+  port: 8081
